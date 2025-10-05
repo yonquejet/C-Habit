@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+padding-top: 80px;
+padding-left: 100px;
+height: 100vh;
+color: #ffffff; 
+background: url('background-gif.gif') no-repeat center center fixed;
+background-size: cover; 
+}
+
+.container {
+text-align: center;
+background: rgba(30, 30, 30, 0.8); 
+border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#greeting {
+font-size: 5rem;
+margin-bottom: 10px;
+}
+
+#show_d {
+font-size: 1.5rem;
+font-weight: 300;
+}
+
+#show_t {
+font-size: 1.5rem;
+font-weight: 300;
+}
+
+
+@media (max-width: 600px) {
+#greeting {
+font-size: 2rem;
+}
+#show_d {
+font-size: 1.5rem;
+font-weight: 300;
+}
+#show_t {
+font-size: 1.2rem; 
+}
+}
